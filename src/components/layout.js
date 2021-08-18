@@ -32,8 +32,8 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -45,7 +45,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/matthew.lynskey.1"
                 title="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,12 +61,12 @@ const Layout = props => {
                 Twitter
               </a>
               <Link
-                to={`/rss.xml`}
-                title="RSS"
+                to="https://www.linkedin.com/in/matthew-lynskey-100b76120/"
+                title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RSS
+                LinkedIn
               </Link>
             </div>
           </div>
@@ -79,13 +79,13 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
+        Built by{" "}
         <a
-          href="https://gatsbyjs.org"
+          href="https://www.leightongrantham.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
+          Leighton Grantham
         </a>
       </footer>
     </div>

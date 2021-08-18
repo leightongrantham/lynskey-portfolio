@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-london",
+  "name": "lynskey-portfolio",
   "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
+  "description": "Made using Gatsby London theme",
   "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
+  "author": "Leighton Grantham",
   "bugs": {
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
